@@ -1,0 +1,879 @@
+2015-05-06 16:25:18,424 INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2015-05-06 16:25:18,449 WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2015-05-06 16:25:18,707 INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2015-05-06 16:25:18,713 WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2015-05-06 16:25:23,296 DEBUG context.GrailsContextLoader  - [GrailsContextLoader] Loading context. Creating parent application context
+2015-05-06 16:25:23,297 INFO  [localhost].[/log4jproducer]  - Initializing Spring root WebApplicationContext
+2015-05-06 16:25:23,551 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\grails-app]
+2015-05-06 16:25:23,552 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,552 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,553 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\conf\hibernate] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,553 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\conf\spring] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,554 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\controllers] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,554 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\domain] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,554 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\i18n] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,556 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\migrations] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,557 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\services] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,557 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,557 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\utils] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,558 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\views] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,558 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\grails-app\views\layouts] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/grails-app/**/*.groovy]
+2015-05-06 16:25:23,559 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer/grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\grails-app\conf\ApplicationResources.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\BootStrap.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\BuildConfig.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\Config.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\DataSource.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\spring\resources.groovy, C:\b2boost\v3\develop\log4jproducer\grails-app\conf\UrlMappings.groovy]
+2015-05-06 16:25:25,109 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:25,110 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:25,110 DEBUG context.GrailsContextLoader  - [GrailsContextLoader] Created parent application context
+2015-05-06 16:25:25,111 DEBUG context.GrailsConfigUtils  - [GrailsContextLoader] Configuring Grails Application
+2015-05-06 16:25:25,120 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.active'
+2015-05-06 16:25:25,120 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.active'
+2015-05-06 16:25:25,120 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:25,120 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:25,121 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:25,121 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:26,324 DEBUG spring.BeanBuilder  - Configuring controller grails.plugin.databasemigration.DbdocController
+2015-05-06 16:25:26,457 DEBUG hibernate3.HibernatePluginSupport  - processing DataSource DEFAULT
+2015-05-06 16:25:26,475 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.active'
+2015-05-06 16:25:26,475 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.active'
+2015-05-06 16:25:26,476 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:26,476 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:26,477 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:26,477 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:26,512 INFO  hibernate3.HibernatePluginSupport  - Set db generation strategy to 'create-drop' for datasource DEFAULT
+2015-05-06 16:25:27,093 INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2015-05-06 16:25:27,094 DEBUG cache.CacheBeanPostProcessor  - updated Root bean: class [grails.plugin.cache.GrailsAnnotationCacheOperationSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null
+2015-05-06 16:25:27,095 INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2015-05-06 16:25:27,163 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,245 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,246 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,246 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,246 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,247 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,247 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,247 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,248 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,248 DEBUG pool.PooledConnection  - Instantiating driver using class: org.h2.Driver [url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE]
+2015-05-06 16:25:27,567 WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/hschoonjans/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2015-05-06 16:25:27,567 DEBUG config.ConfigurationFactory  - Configuring ehcache from URL: jar:file:/C:/Users/hschoonjans/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2015-05-06 16:25:27,568 DEBUG config.ConfigurationFactory  - Configuring ehcache from InputStream
+2015-05-06 16:25:27,585 DEBUG config.BeanHandler  - Ignoring ehcache attribute xmlns:xsi
+2015-05-06 16:25:27,585 DEBUG config.BeanHandler  - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2015-05-06 16:25:27,586 DEBUG config.DiskStoreConfiguration  - Disk Store Path: C:\Users\HSCHOO~1\AppData\Local\Temp\
+2015-05-06 16:25:27,613 DEBUG util.PropertyUtil  - propertiesString is null.
+2015-05-06 16:25:27,616 DEBUG config.ConfigurationHelper  - No CacheManagerEventListenerFactory class specified. Skipping...
+2015-05-06 16:25:27,629 DEBUG ehcache.Cache  - No BootstrapCacheLoaderFactory class specified. Skipping...
+2015-05-06 16:25:27,629 DEBUG ehcache.Cache  - CacheWriter factory not configured. Skipping...
+2015-05-06 16:25:27,630 DEBUG config.ConfigurationHelper  - No CacheExceptionHandlerFactory class specified. Skipping...
+2015-05-06 16:25:27,780 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin webxml-1.4.1
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:27,814 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin jquery-1.11.1
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/jquery-1.11.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:27,817 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin database-migration-1.4.0
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:27,819 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin hibernate-3.6.10.16
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/hibernate-3.6.10.16/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:27,823 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin scaffolding-2.0.3
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:27,827 DEBUG support.PluginAwareResourceBundleMessageSource  - Could not resolve any resources for plugin cache-1.1.7
+java.io.FileNotFoundException: class path resource [C:/b2boost/v3/develop/log4jproducer/target/work/resources/plugins/cache-1.1.7/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:28,725 INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@6ca61d0b: startup date [Wed May 06 16:25:26 CEST 2015]; parent: Root WebApplicationContext]
+2015-05-06 16:25:29,708 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:29,708 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:29,774 INFO  resource.ResourceProcessor  - Performing a full reload
+2015-05-06 16:25:29,813 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.active'
+2015-05-06 16:25:29,813 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.active'
+2015-05-06 16:25:29,813 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:29,813 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:29,814 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.profiles.default'
+2015-05-06 16:25:29,814 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.profiles.default'
+2015-05-06 16:25:29,890 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'java:comp/env/spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:29,890 DEBUG naming.SelectorContext  - Call to method 'lookup' with a String of 'spring.liveBeansView.mbeanDomain'
+2015-05-06 16:25:29,948 DEBUG mapper.ResourceMappersFactory  - Resource mappers will be run in the following order:
+Phase: LINKNORMALISATION
+  0: csspreprocessor
+Phase: AGGREGATION
+  0: bundle
+Phase: LINKREALISATION
+  0: cssrewriter
+Phase: ABSOLUTISATION
+  0: baseurl
+
+2015-05-06 16:25:29,953 INFO  resource.ResourceProcessor  - Loading resource declarations...
+2015-05-06 16:25:29,953 INFO  resource.ResourceProcessor  - Forgetting all known modules...
+2015-05-06 16:25:29,954 INFO  resource.ResourceProcessor  - Forgetting all known resources...
+2015-05-06 16:25:29,987 DEBUG module.ModuleDeclarationsFactory  - resource config order: [ApplicationResources, JQueryPluginResources]
+2015-05-06 16:25:29,997 DEBUG module.ModuleDeclarationsFactory  - consuming resources config from ApplicationResources
+2015-05-06 16:25:30,013 DEBUG module.ModuleDeclarationsFactory  - consuming resources config from JQueryPluginResources
+2015-05-06 16:25:30,064 DEBUG resource.ResourceProcessor  - evaluating resource modules from ApplicationResources
+2015-05-06 16:25:30,090 DEBUG module.ModulesBuilder  - Defined module '[name:application, resources:[[url:js/application.js]], defaultBundle:null, dependencies:[]]'
+2015-05-06 16:25:30,090 DEBUG resource.ResourceProcessor  - evaluating resource modules from JQueryPluginResources
+2015-05-06 16:25:30,099 DEBUG module.ModulesBuilder  - Defined module '[name:jquery, resources:[[id:js, url:[plugin:jquery, dir:js/jquery, file:jquery-1.11.1.min.js], disposition:head, nominify:true]], defaultBundle:null, dependencies:[]]'
+2015-05-06 16:25:30,105 DEBUG module.ModulesBuilder  - Defined module '[name:jquery-dev, resources:[[id:js, url:[plugin:jquery, dir:js/jquery, file:jquery-1.11.1.js], disposition:head]], defaultBundle:null, dependencies:[]]'
+2015-05-06 16:25:30,108 WARN  module.ModuleDeclarationsFactory  - 'grails.resources.modules' in config does not define any modules
+2015-05-06 16:25:30,108 DEBUG resource.ResourceProcessor  - resource modules after evaluation: [[name:application, resources:[[url:js/application.js]], defaultBundle:null, dependencies:[]], [name:jquery, resources:[[id:js, url:[plugin:jquery, dir:js/jquery, file:jquery-1.11.1.min.js], disposition:head, nominify:true]], defaultBundle:null, dependencies:[]], [name:jquery-dev, resources:[[id:js, url:[plugin:jquery, dir:js/jquery, file:jquery-1.11.1.js], disposition:head]], defaultBundle:null, dependencies:[]]]
+2015-05-06 16:25:30,109 DEBUG resource.ResourceProcessor  - Merging in module overrides null
+2015-05-06 16:25:30,228 DEBUG resource.ResourceProcessor  - Extension extracted from /js/application.js ([/js/application.js]) is js
+2015-05-06 16:25:30,231 DEBUG resource.ResourceProcessor  - Storing resource module definition <org.grails.plugin.resource.ResourceModule@5bc8ab1e name=application cachedMarkup=null resources=[ResourceMeta for URI /js/application.js served by null (delegate: none)] dependsOn=[] defaultBundle=null pluginManager=org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager@77dd988b dispositions=null>
+2015-05-06 16:25:30,266 DEBUG resource.ResourceProcessor  - Extension extracted from /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js ([/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js]) is js
+2015-05-06 16:25:30,266 DEBUG resource.ResourceProcessor  - Storing resource module definition <org.grails.plugin.resource.ResourceModule@66631b77 name=jquery cachedMarkup=null resources=[ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js served by null (delegate: none)] dependsOn=[] defaultBundle=null pluginManager=org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager@77dd988b dispositions=null>
+2015-05-06 16:25:30,267 DEBUG resource.ResourceProcessor  - Extension extracted from /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js ([/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js]) is js
+2015-05-06 16:25:30,268 DEBUG resource.ResourceProcessor  - Storing resource module definition <org.grails.plugin.resource.ResourceModule@6b496ebf name=jquery-dev cachedMarkup=null resources=[ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js served by null (delegate: none)] dependsOn=[] defaultBundle=null pluginManager=org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager@77dd988b dispositions=null>
+2015-05-06 16:25:30,368 DEBUG resource.ResourceProcessor  - Preparing resource batch:
+2015-05-06 16:25:30,378 DEBUG resource.ResourceProcessor  - Batch includes resource: /js/application.js
+2015-05-06 16:25:30,378 DEBUG resource.ResourceProcessor  - Batch includes resource: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js
+2015-05-06 16:25:30,378 DEBUG resource.ResourceProcessor  - Batch includes resource: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js
+2015-05-06 16:25:30,420 DEBUG resource.ResourceProcessor  - Preparing resource /js/application.js (<org.grails.plugin.resource.ResourceMeta@49520b33 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=/js/application.js module=org.grails.plugin.resource.ResourceModule@5bc8ab1e workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/js/application.js sourceUrl=/js/application.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=null linkOverride=null bundle=null contentType=null disposition=defer excludedMappers=null attributes=[:] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=null originalSize=null processedSize=null processedFile=null originalLastMod=0 requestProcessors=[] _linkUrl=null processed=false _resourceExists=false declaringResource=null contentLength=0 originalContentLength=0>)
+2015-05-06 16:25:30,452 DEBUG resource.ResourceMeta  - Resource [/js/application.js] (file:C:/b2boost/v3/develop/log4jproducer/web-app/js/application.js) has content type [application/javascript]
+2015-05-06 16:25:30,487 DEBUG resource.ResourceProcessor  - Creating file object for URI [/js/application.js] from [C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js] and [application.js]
+2015-05-06 16:25:30,500 DEBUG resource.ResourceProcessor  - Applying mappers to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+2015-05-06 16:25:30,501 DEBUG resource.ResourceProcessor  - Running mapper csspreprocessor (org.grails.plugin.resource.CSSPreprocessorResourceMapper@61bbaa20)
+2015-05-06 16:25:30,501 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKNORMALISATION
+2015-05-06 16:25:30,502 DEBUG resource.ResourceProcessor  - Applying mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js - delegating? false
+2015-05-06 16:25:30,561 DEBUG mapper.csspreprocessor  - Skipping /js/application.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,561 DEBUG resource.ResourceProcessor  - Applied mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+2015-05-06 16:25:30,567 DEBUG resource.ResourceProcessor  - Running mapper bundle (org.grails.plugin.resource.BundleResourceMapper@188400a)
+2015-05-06 16:25:30,567 DEBUG resource.ResourceProcessor  - Entering mapper phase AGGREGATION
+2015-05-06 16:25:30,567 DEBUG resource.ResourceProcessor  - Applying mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js - delegating? false
+2015-05-06 16:25:30,569 DEBUG mapper.bundle  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@49520b33 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=/js/application.js module=org.grails.plugin.resource.ResourceModule@5bc8ab1e workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/js/application.js sourceUrl=/js/application.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/js/application.js linkOverride=null bundle=null contentType=application/javascript disposition=defer excludedMappers=null attributes=[processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/web-app/js/application.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js originalLastMod=1402995854000 requestProcessors=[] _linkUrl=/js/application.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=183>
+2015-05-06 16:25:30,571 DEBUG mapper.bundle  - Done mapping <org.grails.plugin.resource.ResourceMeta@49520b33 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=/js/application.js module=org.grails.plugin.resource.ResourceModule@5bc8ab1e workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/js/application.js sourceUrl=/js/application.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/js/application.js linkOverride=null bundle=null contentType=application/javascript disposition=defer excludedMappers=null attributes=[processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/web-app/js/application.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js originalLastMod=1402995854000 requestProcessors=[] _linkUrl=/js/application.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=183>
+2015-05-06 16:25:30,571 DEBUG resource.ResourceProcessor  - Applied mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+2015-05-06 16:25:30,572 DEBUG resource.ResourceProcessor  - Running mapper cssrewriter (org.grails.plugin.resource.CSSRewriterResourceMapper@309e1550)
+2015-05-06 16:25:30,572 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKREALISATION
+2015-05-06 16:25:30,572 DEBUG resource.ResourceProcessor  - Applying mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js - delegating? false
+2015-05-06 16:25:30,572 DEBUG mapper.cssrewriter  - Skipping /js/application.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,572 DEBUG resource.ResourceProcessor  - Applied mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+2015-05-06 16:25:30,572 DEBUG resource.ResourceProcessor  - Running mapper baseurl (org.grails.plugin.resource.BaseUrlResourceMapper@5d2a2a4f)
+2015-05-06 16:25:30,573 DEBUG resource.ResourceProcessor  - Entering mapper phase ABSOLUTISATION
+2015-05-06 16:25:30,573 DEBUG resource.ResourceProcessor  - Applying mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js - delegating? false
+2015-05-06 16:25:30,574 DEBUG mapper.baseurl  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@49520b33 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=/js/application.js module=org.grails.plugin.resource.ResourceModule@5bc8ab1e workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/js/application.js sourceUrl=/js/application.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/js/application.js linkOverride=null bundle=null contentType=application/javascript disposition=defer excludedMappers=null attributes=[processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/web-app/js/application.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js originalLastMod=1402995854000 requestProcessors=[] _linkUrl=/js/application.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=183>
+2015-05-06 16:25:30,577 DEBUG mapper.baseurl  - Done mapping <org.grails.plugin.resource.ResourceMeta@49520b33 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=/js/application.js module=org.grails.plugin.resource.ResourceModule@5bc8ab1e workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/js/application.js sourceUrl=/js/application.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/js/application.js linkOverride=null bundle=null contentType=application/javascript disposition=defer excludedMappers=null attributes=[processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/web-app/js/application.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js originalLastMod=1402995854000 requestProcessors=[] _linkUrl=/js/application.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=183>
+2015-05-06 16:25:30,577 DEBUG resource.ResourceProcessor  - Applied mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+2015-05-06 16:25:30,579 DEBUG util.ResourceMetaStore  - Adding declared resource ResourceMeta for URI /js/application.js served by /js/application.js (delegate: none)
+2015-05-06 16:25:30,581 DEBUG util.ResourceMetaStore  - Updating URI to resource cache for ResourceMeta for URI /js/application.js served by /js/application.js (delegate: none)
+2015-05-06 16:25:30,590 DEBUG util.ResourceMetaStore  - Storing mapping for resource URI /js/application.js to ResourceMeta for URI /js/application.js served by /js/application.js (delegate: none)
+2015-05-06 16:25:30,591 DEBUG resource.ResourceProcessor  - Preparing resource /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js (<org.grails.plugin.resource.ResourceMeta@68292ea log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@66631b77 workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=null linkOverride=null bundle=null contentType=null disposition=head excludedMappers=null attributes=[id:js, nominify:true] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=null originalSize=null processedSize=null processedFile=null originalLastMod=0 requestProcessors=[] _linkUrl=null processed=false _resourceExists=false declaringResource=null contentLength=0 originalContentLength=0>)
+2015-05-06 16:25:30,594 DEBUG resource.ResourceMeta  - Resource [/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js] (file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js) has content type [application/javascript]
+2015-05-06 16:25:30,599 DEBUG resource.ResourceProcessor  - Creating file object for URI [/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js] from [C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery] and [jquery-1.11.1.min.js]
+2015-05-06 16:25:30,601 DEBUG resource.ResourceProcessor  - Applying mappers to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+2015-05-06 16:25:30,601 DEBUG resource.ResourceProcessor  - Running mapper csspreprocessor (org.grails.plugin.resource.CSSPreprocessorResourceMapper@61bbaa20)
+2015-05-06 16:25:30,601 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKNORMALISATION
+2015-05-06 16:25:30,601 DEBUG resource.ResourceProcessor  - Applying mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js - delegating? false
+2015-05-06 16:25:30,602 DEBUG mapper.csspreprocessor  - Skipping /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,602 DEBUG resource.ResourceProcessor  - Applied mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+2015-05-06 16:25:30,603 DEBUG resource.ResourceProcessor  - Running mapper bundle (org.grails.plugin.resource.BundleResourceMapper@188400a)
+2015-05-06 16:25:30,603 DEBUG resource.ResourceProcessor  - Entering mapper phase AGGREGATION
+2015-05-06 16:25:30,603 DEBUG resource.ResourceProcessor  - Applying mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js - delegating? false
+2015-05-06 16:25:30,603 DEBUG mapper.bundle  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@68292ea log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@66631b77 workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, nominify:true, processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js originalLastMod=1399101122000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=95786>
+2015-05-06 16:25:30,604 DEBUG mapper.bundle  - Done mapping <org.grails.plugin.resource.ResourceMeta@68292ea log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@66631b77 workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, nominify:true, processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js originalLastMod=1399101122000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=95786>
+2015-05-06 16:25:30,604 DEBUG resource.ResourceProcessor  - Applied mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+2015-05-06 16:25:30,604 DEBUG resource.ResourceProcessor  - Running mapper cssrewriter (org.grails.plugin.resource.CSSRewriterResourceMapper@309e1550)
+2015-05-06 16:25:30,604 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKREALISATION
+2015-05-06 16:25:30,604 DEBUG resource.ResourceProcessor  - Applying mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js - delegating? false
+2015-05-06 16:25:30,605 DEBUG mapper.cssrewriter  - Skipping /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,605 DEBUG resource.ResourceProcessor  - Applied mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+2015-05-06 16:25:30,605 DEBUG resource.ResourceProcessor  - Running mapper baseurl (org.grails.plugin.resource.BaseUrlResourceMapper@5d2a2a4f)
+2015-05-06 16:25:30,605 DEBUG resource.ResourceProcessor  - Entering mapper phase ABSOLUTISATION
+2015-05-06 16:25:30,605 DEBUG resource.ResourceProcessor  - Applying mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js - delegating? false
+2015-05-06 16:25:30,606 DEBUG mapper.baseurl  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@68292ea log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@66631b77 workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, nominify:true, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js originalLastMod=1399101122000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=95786>
+2015-05-06 16:25:30,607 DEBUG mapper.baseurl  - Done mapping <org.grails.plugin.resource.ResourceMeta@68292ea log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@66631b77 workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, nominify:true, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js originalLastMod=1399101122000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=95786>
+2015-05-06 16:25:30,607 DEBUG resource.ResourceProcessor  - Applied mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+2015-05-06 16:25:30,608 DEBUG util.ResourceMetaStore  - Adding declared resource ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js (delegate: none)
+2015-05-06 16:25:30,608 DEBUG util.ResourceMetaStore  - Updating URI to resource cache for ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js (delegate: none)
+2015-05-06 16:25:30,608 DEBUG util.ResourceMetaStore  - Storing mapping for resource URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js to ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js (delegate: none)
+2015-05-06 16:25:30,609 DEBUG resource.ResourceProcessor  - Preparing resource /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js (<org.grails.plugin.resource.ResourceMeta@457093d8 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@6b496ebf workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=null linkOverride=null bundle=null contentType=null disposition=head excludedMappers=null attributes=[id:js] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=null originalSize=null processedSize=null processedFile=null originalLastMod=0 requestProcessors=[] _linkUrl=null processed=false _resourceExists=false declaringResource=null contentLength=0 originalContentLength=0>)
+2015-05-06 16:25:30,612 DEBUG resource.ResourceMeta  - Resource [/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js] (file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js) has content type [application/javascript]
+2015-05-06 16:25:30,615 DEBUG resource.ResourceProcessor  - Creating file object for URI [/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js] from [C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery] and [jquery-1.11.1.js]
+2015-05-06 16:25:30,619 DEBUG resource.ResourceProcessor  - Applying mappers to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+2015-05-06 16:25:30,620 DEBUG resource.ResourceProcessor  - Running mapper csspreprocessor (org.grails.plugin.resource.CSSPreprocessorResourceMapper@61bbaa20)
+2015-05-06 16:25:30,621 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKNORMALISATION
+2015-05-06 16:25:30,621 DEBUG resource.ResourceProcessor  - Applying mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js - delegating? false
+2015-05-06 16:25:30,622 DEBUG mapper.csspreprocessor  - Skipping /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,622 DEBUG resource.ResourceProcessor  - Applied mapper csspreprocessor to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+2015-05-06 16:25:30,623 DEBUG resource.ResourceProcessor  - Running mapper bundle (org.grails.plugin.resource.BundleResourceMapper@188400a)
+2015-05-06 16:25:30,623 DEBUG resource.ResourceProcessor  - Entering mapper phase AGGREGATION
+2015-05-06 16:25:30,623 DEBUG resource.ResourceProcessor  - Applying mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js - delegating? false
+2015-05-06 16:25:30,624 DEBUG mapper.bundle  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@457093d8 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@6b496ebf workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js originalLastMod=1399101104000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=282766>
+2015-05-06 16:25:30,625 DEBUG mapper.bundle  - Done mapping <org.grails.plugin.resource.ResourceMeta@457093d8 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@6b496ebf workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, processed.by.csspreprocessor:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js originalLastMod=1399101104000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=282766>
+2015-05-06 16:25:30,625 DEBUG resource.ResourceProcessor  - Applied mapper bundle to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+2015-05-06 16:25:30,626 DEBUG resource.ResourceProcessor  - Running mapper cssrewriter (org.grails.plugin.resource.CSSRewriterResourceMapper@309e1550)
+2015-05-06 16:25:30,626 DEBUG resource.ResourceProcessor  - Entering mapper phase LINKREALISATION
+2015-05-06 16:25:30,626 DEBUG resource.ResourceProcessor  - Applying mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js - delegating? false
+2015-05-06 16:25:30,627 DEBUG mapper.cssrewriter  - Skipping /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js due to includes pattern [**/*.css] not including it
+2015-05-06 16:25:30,627 DEBUG resource.ResourceProcessor  - Applied mapper cssrewriter to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+2015-05-06 16:25:30,627 DEBUG resource.ResourceProcessor  - Running mapper baseurl (org.grails.plugin.resource.BaseUrlResourceMapper@5d2a2a4f)
+2015-05-06 16:25:30,627 DEBUG resource.ResourceProcessor  - Entering mapper phase ABSOLUTISATION
+2015-05-06 16:25:30,627 DEBUG resource.ResourceProcessor  - Applying mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js - delegating? false
+2015-05-06 16:25:30,628 DEBUG mapper.baseurl  - Beginning mapping <org.grails.plugin.resource.ResourceMeta@457093d8 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@6b496ebf workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js originalLastMod=1399101104000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=282766>
+2015-05-06 16:25:30,628 DEBUG mapper.baseurl  - Done mapping <org.grails.plugin.resource.ResourceMeta@457093d8 log=org.slf4j.impl.GrailsLog4jLoggerAdapter(org.grails.plugin.resource.ResourceMeta) id=js module=org.grails.plugin.resource.ResourceModule@6b496ebf workDir=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources originalUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js sourceUrlExtension=js sourceUrlParamsAndFragment=null actualUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js linkOverride=null bundle=null contentType=application/javascript disposition=head excludedMappers=null attributes=[id:js, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false] tagAttributes=[:] prePostWrapper=null delegate=null originalResource=URL [file:C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js] originalSize=0 processedSize=null processedFile=C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js originalLastMod=1399101104000 requestProcessors=[] _linkUrl=/plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js processed=false _resourceExists=true declaringResource=null contentLength=0 originalContentLength=282766>
+2015-05-06 16:25:30,628 DEBUG resource.ResourceProcessor  - Applied mapper baseurl to C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+2015-05-06 16:25:30,629 DEBUG util.ResourceMetaStore  - Adding declared resource ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js (delegate: none)
+2015-05-06 16:25:30,629 DEBUG util.ResourceMetaStore  - Updating URI to resource cache for ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js (delegate: none)
+2015-05-06 16:25:30,629 DEBUG util.ResourceMetaStore  - Storing mapping for resource URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js to ResourceMeta for URI /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js served by /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js (delegate: none)
+2015-05-06 16:25:30,630 DEBUG resource.ResourceProcessor  - Preparing synthetic resources
+2015-05-06 16:25:30,653 DEBUG util.StatsManager  -   csspreprocessor = 61
+2015-05-06 16:25:30,653 DEBUG util.StatsManager  -   bundle = 7
+2015-05-06 16:25:30,653 DEBUG util.StatsManager  -   cssrewriter = 2
+2015-05-06 16:25:30,653 DEBUG util.StatsManager  -   baseurl = 7
+2015-05-06 16:25:30,654 INFO  resource.ResourceProcessor  - Finished full reload
+2015-05-06 16:25:30,845 DEBUG configuration.ConvertersConfigurationInitializer  - Initializing Converters Default Configurations...
+2015-05-06 16:25:30,845 DEBUG configuration.ConvertersConfigurationInitializer  - Initializing default JSON Converters Configuration...
+2015-05-06 16:25:30,852 DEBUG configuration.ConvertersConfigurationInitializer  - Using default JSON Date Marshaller
+2015-05-06 16:25:30,873 DEBUG configuration.ConvertersConfigurationInitializer  - Initializing default XML Converters Configuration...
+2015-05-06 16:25:31,515 INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2015-05-06 16:25:31,546 INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2015-05-06 16:25:31,550 INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2015-05-06 16:25:31,568 DEBUG cache.ConfigLoader  - Including configs from Default with order 1000
+2015-05-06 16:25:31,568 DEBUG cache.ConfigLoader  - Not including configs from Config.groovy
+2015-05-06 16:25:31,595 DEBUG cache.CacheGrailsPlugin  - Reloaded grailsCacheConfigLoader
+2015-05-06 16:25:31,595 INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - Resource definitions
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - Module: application
+   Depends on modules: []
+   Resource: /js/application.js
+             -- id: /js/application.js
+             -- original Url: /js/application.js
+             -- local file: C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+             -- exists: true
+             -- mime type: application/javascript
+             -- actual Url: /js/application.js
+             -- source Extension: js
+             -- query params/fragment: null
+             -- url for linking: /js/application.js
+             -- content length: 183 (original 183)
+             -- link override: null
+             -- excluded mappers: null
+             -- attributes: [processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false, processed.by.baseurl:true]
+             -- tag attributes: [:]
+             -- disposition: defer
+             -- delegating?: No
+Module: jquery
+   Depends on modules: []
+   Resource: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js
+             -- id: js
+             -- original Url: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js
+             -- local file: C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+             -- exists: true
+             -- mime type: application/javascript
+             -- actual Url: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js
+             -- source Extension: js
+             -- query params/fragment: null
+             -- url for linking: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js
+             -- content length: 95786 (original 95786)
+             -- link override: null
+             -- excluded mappers: null
+             -- attributes: [id:js, nominify:true, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false, processed.by.baseurl:true]
+             -- tag attributes: [:]
+             -- disposition: head
+             -- delegating?: No
+Module: jquery-dev
+   Depends on modules: []
+   Resource: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js
+             -- id: js
+             -- original Url: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js
+             -- local file: C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+             -- exists: true
+             -- mime type: application/javascript
+             -- actual Url: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js
+             -- source Extension: js
+             -- query params/fragment: null
+             -- url for linking: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js
+             -- content length: 282766 (original 282766)
+             -- link override: null
+             -- excluded mappers: null
+             -- attributes: [id:js, processed.by.csspreprocessor:false, processed.by.bundle:true, processed.by.cssrewriter:false, processed.by.baseurl:true]
+             -- tag attributes: [:]
+             -- disposition: head
+             -- delegating?: No
+
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - Resource URI cache
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,664 DEBUG resource.ResourceProcessor  - Resource URI: /js/application.js => C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\js\application.js
+Resource URI: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.js => C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.js
+Resource URI: /plugins/jquery-1.11.1/js/jquery/jquery-1.11.1.min.js => C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer\grails-resources\plugins\jquery-1.11.1\js\jquery\jquery-1.11.1.min.js
+
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - Module load order
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - Dependency load order: [jquery, jquery-dev, application, __@adhoc-files@__, __@synthetic-files@__]
+
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - Mapper application order: [csspreprocessor, bundle, cssrewriter, baseurl]
+
+2015-05-06 16:25:31,665 DEBUG resource.ResourceProcessor  - --------------------------------------------------
+2015-05-06 16:25:31,686 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/log4jproducer]] to [INITIALIZING]
+2015-05-06 16:25:31,686 DEBUG modeler.Registry  - Managed= Tomcat:type=Manager,context=/log4jproducer,host=localhost
+2015-05-06 16:25:31,686 DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.session.StandardManager[/log4jproducer] Tomcat:type=Manager,context=/log4jproducer,host=localhost
+2015-05-06 16:25:31,686 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/log4jproducer]] to [INITIALIZED]
+2015-05-06 16:25:31,686 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/log4jproducer]] to [STARTING_PREP]
+2015-05-06 16:25:31,705 DEBUG session.ManagerBase  - Force random number initialization starting
+2015-05-06 16:25:31,705 DEBUG session.ManagerBase  - Force random number initialization completed
+2015-05-06 16:25:31,705 DEBUG session.StandardManager  - Start: Loading persisted sessions
+2015-05-06 16:25:31,705 DEBUG session.StandardManager  - Loading persisted sessions from SESSIONS.ser
+2015-05-06 16:25:31,705 DEBUG session.StandardManager  - No persisted data file found
+2015-05-06 16:25:31,705 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/log4jproducer]] to [STARTING]
+2015-05-06 16:25:31,705 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.session.StandardManager[/log4jproducer]] to [STARTED]
+2015-05-06 16:25:31,705 DEBUG [localhost].[/log4jproducer]  - Starting filters
+2015-05-06 16:25:31,705 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'grailsWebRequest'
+2015-05-06 16:25:31,708 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=grailsWebRequest,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,708 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=grailsWebRequest, filterClass=org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter] Tomcat:j2eeType=Filter,name=grailsWebRequest,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,708 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'AdHocResourcesPluginFilter'
+2015-05-06 16:25:31,723 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=AdHocResourcesPluginFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,723 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=AdHocResourcesPluginFilter, filterClass=org.grails.plugin.resource.ProcessingFilter] Tomcat:j2eeType=Filter,name=AdHocResourcesPluginFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,724 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2015-05-06 16:25:31,724 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=Tomcat WebSocket (JSR356) Filter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,724 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=Tomcat WebSocket (JSR356) Filter, filterClass=org.apache.tomcat.websocket.server.WsFilter] Tomcat:j2eeType=Filter,name=Tomcat WebSocket (JSR356) Filter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,724 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'DeclaredResourcesPluginFilter'
+2015-05-06 16:25:31,724 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=DeclaredResourcesPluginFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,724 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=DeclaredResourcesPluginFilter, filterClass=org.grails.plugin.resource.ProcessingFilter] Tomcat:j2eeType=Filter,name=DeclaredResourcesPluginFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,724 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'ResourcesDevModeFilter'
+2015-05-06 16:25:31,731 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=ResourcesDevModeFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,731 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=ResourcesDevModeFilter, filterClass=org.grails.plugin.resource.DevModeSanityFilter] Tomcat:j2eeType=Filter,name=ResourcesDevModeFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,731 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'urlMapping'
+2015-05-06 16:25:31,735 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=urlMapping,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,735 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=urlMapping, filterClass=org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter] Tomcat:j2eeType=Filter,name=urlMapping,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,735 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'sitemesh'
+2015-05-06 16:25:31,746 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=sitemesh,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,746 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=sitemesh, filterClass=org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter] Tomcat:j2eeType=Filter,name=sitemesh,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,746 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'hiddenHttpMethod'
+2015-05-06 16:25:31,747 DEBUG filters.HiddenHttpMethodFilter  - Initializing filter 'hiddenHttpMethod'
+2015-05-06 16:25:31,747 DEBUG filters.HiddenHttpMethodFilter  - Filter 'hiddenHttpMethod' configured successfully
+2015-05-06 16:25:31,747 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=hiddenHttpMethod,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,747 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=hiddenHttpMethod, filterClass=org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter] Tomcat:j2eeType=Filter,name=hiddenHttpMethod,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,747 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'grailsCacheFilter'
+2015-05-06 16:25:31,752 DEBUG simple.MemoryPageFragmentCachingFilter  - Initializing filter 'grailsCacheFilter'
+2015-05-06 16:25:31,754 DEBUG simple.MemoryPageFragmentCachingFilter  - Filter 'grailsCacheFilter' configured successfully
+2015-05-06 16:25:31,754 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=grailsCacheFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,754 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=grailsCacheFilter, filterClass=org.springframework.web.filter.DelegatingFilterProxy] Tomcat:j2eeType=Filter,name=grailsCacheFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,754 DEBUG [localhost].[/log4jproducer]  -  Starting filter 'charEncodingFilter'
+2015-05-06 16:25:31,755 DEBUG modeler.Registry  - Managed= Tomcat:j2eeType=Filter,name=charEncodingFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,755 DEBUG modeler.BaseModelMBean  - preRegister ApplicationFilterConfig[name=charEncodingFilter, filterClass=org.springframework.web.filter.DelegatingFilterProxy] Tomcat:j2eeType=Filter,name=charEncodingFilter,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,775 INFO  [localhost].[/log4jproducer]  - Initializing Spring FrameworkServlet 'grails'
+2015-05-06 16:25:31,810 DEBUG compiler.JspRuntimeContext  - Parent class loader is: org.grails.plugins.tomcat.ParentDelegatingClassLoader@7835fa22
+2015-05-06 16:25:31,810 DEBUG compiler.JspRuntimeContext  - Compilation classpath initialized: C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer;null
+2015-05-06 16:25:31,811 DEBUG servlet.JspServlet  - Scratch dir for the JSP engine is: C:\b2boost\v3\develop\log4jproducer\target\work\tomcat\work\Tomcat\localhost\log4jproducer
+2015-05-06 16:25:31,811 DEBUG servlet.JspServlet  - IMPORTANT: Do not modify the generated servlets
+2015-05-06 16:25:31,811 DEBUG modeler.Registry  - Managed= Tomcat:type=JspMonitor,name=jsp,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,811 DEBUG modeler.Registry  - Looking for descriptor 
+2015-05-06 16:25:31,811 DEBUG modeler.Registry  - Found jar:file:/C:/Users/hschoonjans/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.53/tomcat-embed-jasper-7.0.53.jar!/org/apache/jasper/servlet/mbeans-descriptors.xml
+2015-05-06 16:25:31,812 DEBUG Digester.sax  - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@1ec33981)
+2015-05-06 16:25:31,812 DEBUG Digester.sax  - startDocument()
+2015-05-06 16:25:31,812 DEBUG Digester.sax  - startElement(,,mbeans-descriptors)
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   Pushing body text ''
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   New match='mbeans-descriptors'
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   No rules found matching 'mbeans-descriptors'.
+2015-05-06 16:25:31,812 DEBUG Digester.sax  - characters(
+
+  )
+2015-05-06 16:25:31,812 DEBUG Digester.sax  - startElement(,,mbean)
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   Pushing body text '
+
+  '
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean'
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2015-05-06 16:25:31,812 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean}New org.apache.tomcat.util.modeler.ManagedBean
+2015-05-06 16:25:31,812 DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2015-05-06 16:25:31,812 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Set org.apache.tomcat.util.modeler.ManagedBean properties
+2015-05-06 16:25:31,812 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'name' to 'JspMonitor'
+2015-05-06 16:25:31,812 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean name=JspMonitor)
+2015-05-06 16:25:31,812 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'description' to 'JSP Monitoring'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean description=JSP Monitoring)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'domain' to 'Catalina'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean domain=Catalina)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'group' to 'Monitoring'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean group=Monitoring)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean} Setting property 'type' to 'org.apache.jasper.servlet.JspServlet'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.ManagedBean type=org.apache.jasper.servlet.JspServlet)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2015-05-06 16:25:31,813 DEBUG Digester.sax  - characters(
+
+    )
+2015-05-06 16:25:31,813 DEBUG Digester.sax  - startElement(,,attribute)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   Pushing body text '
+
+    '
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspCount'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspCount)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been loaded into a webapp'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been loaded into a webapp)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'writeable' to 'false'
+2015-05-06 16:25:31,813 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo writeable=false)
+2015-05-06 16:25:31,813 DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,813 DEBUG Digester.sax  - endElement(,,attribute)
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   bodyText=''
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Popping body text '
+
+    '
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@22f453ee)
+2015-05-06 16:25:31,814 DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,814 DEBUG Digester.sax  - characters(
+
+    )
+2015-05-06 16:25:31,814 DEBUG Digester.sax  - startElement(,,attribute)
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    '
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,814 DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspReloadCount'
+2015-05-06 16:25:31,814 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspReloadCount)
+2015-05-06 16:25:31,814 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been reloaded'
+2015-05-06 16:25:31,814 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been reloaded)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2015-05-06 16:25:31,815 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,815 DEBUG Digester.sax  - endElement(,,attribute)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   bodyText=''
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    '
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@56b2402f)
+2015-05-06 16:25:31,815 DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,815 DEBUG Digester.sax  - characters(
+
+    )
+2015-05-06 16:25:31,815 DEBUG Digester.sax  - startElement(,,attribute)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    
+
+    '
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,815 DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspUnloadCount'
+2015-05-06 16:25:31,815 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspUnloadCount)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The number of JSPs that have been unloaded'
+2015-05-06 16:25:31,815 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The number of JSPs that have been unloaded)
+2015-05-06 16:25:31,815 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2015-05-06 16:25:31,816 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,816 DEBUG Digester.sax  - endElement(,,attribute)
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   bodyText=''
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    
+
+    '
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@5093fa20)
+2015-05-06 16:25:31,816 DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,816 DEBUG Digester.sax  - characters(
+
+    )
+2015-05-06 16:25:31,816 DEBUG Digester.sax  - startElement(,,attribute)
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Pushing body text '
+
+    
+
+    
+
+    
+
+    '
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   New match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire begin() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute}New org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,816 DEBUG digester.Digester  -   Fire begin() for SetPropertiesRule[]
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Set org.apache.tomcat.util.modeler.AttributeInfo properties
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'name' to 'jspQueueLength'
+2015-05-06 16:25:31,816 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo name=jspQueueLength)
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'description' to 'The length of the JSP queue (if enabled via maxLoadedJsps)'
+2015-05-06 16:25:31,816 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo description=The length of the JSP queue (if enabled via maxLoadedJsps))
+2015-05-06 16:25:31,816 DEBUG digester.Digester  - [SetPropertiesRule]{mbeans-descriptors/mbean/attribute} Setting property 'type' to 'int'
+2015-05-06 16:25:31,816 DEBUG util.IntrospectionUtils  - IntrospectionUtils: setProperty(class org.apache.tomcat.util.modeler.AttributeInfo type=int)
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire begin() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,817 DEBUG Digester.sax  - endElement(,,attribute)
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   match='mbeans-descriptors/mbean/attribute'
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   bodyText=''
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Popping body text '
+
+    
+
+    
+
+    
+
+    '
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=addAttribute, paramType=org.apache.tomcat.util.modeler.AttributeInfo]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean/attribute} Call org.apache.tomcat.util.modeler.ManagedBean.addAttribute(org.apache.tomcat.util.modeler.AttributeInfo@230a7434)
+2015-05-06 16:25:31,817 DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 org.apache.tomcat.util.modeler.ManagedBean org.apache.tomcat.util.modeler.AttributeInfo org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.AttributeInfo, attributeName=null]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean/attribute} Pop org.apache.tomcat.util.modeler.AttributeInfo
+2015-05-06 16:25:31,817 DEBUG Digester.sax  - characters(
+
+  )
+2015-05-06 16:25:31,817 DEBUG Digester.sax  - endElement(,,mbean)
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   match='mbeans-descriptors/mbean'
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   bodyText='
+
+    
+
+    
+
+    
+
+    
+
+  '
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for SetPropertiesRule[]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire body() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Popping body text '
+
+  '
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for SetNextRule[methodName=add, paramType=java.lang.Object]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  - [SetNextRule]{mbeans-descriptors/mbean} Call java.util.ArrayList.add(ManagedBean[name=JspMonitor, className=org.apache.tomcat.util.modeler.BaseModelMBean, description=JSP Monitoring, group=Monitoring, type=org.apache.jasper.servlet.JspServlet])
+2015-05-06 16:25:31,817 DEBUG util.IntrospectionUtils  - IntrospectionUtils: callMethod1 java.util.ArrayList org.apache.tomcat.util.modeler.ManagedBean java.lang.Object
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for SetPropertiesRule[]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  -   Fire end() for ObjectCreateRule[className=org.apache.tomcat.util.modeler.ManagedBean, attributeName=null]
+2015-05-06 16:25:31,817 DEBUG digester.Digester  - [ObjectCreateRule]{mbeans-descriptors/mbean} Pop org.apache.tomcat.util.modeler.ManagedBean
+2015-05-06 16:25:31,817 DEBUG Digester.sax  - characters(
+
+)
+2015-05-06 16:25:31,817 DEBUG Digester.sax  - endElement(,,mbeans-descriptors)
+2015-05-06 16:25:31,818 DEBUG digester.Digester  -   match='mbeans-descriptors'
+2015-05-06 16:25:31,818 DEBUG digester.Digester  -   bodyText='
+
+  
+
+'
+2015-05-06 16:25:31,818 DEBUG digester.Digester  -   No rules found matching 'mbeans-descriptors'.
+2015-05-06 16:25:31,818 DEBUG digester.Digester  -   Popping body text ''
+2015-05-06 16:25:31,818 DEBUG Digester.sax  - endDocument()
+2015-05-06 16:25:31,818 DEBUG modeler.BaseModelMBean  - preRegister org.apache.jasper.servlet.JspServlet@35313e5 Tomcat:type=JspMonitor,name=jsp,WebModule=//localhost/log4jproducer,J2EEApplication=none,J2EEServer=none
+2015-05-06 16:25:31,818 DEBUG core.StandardContext  - Starting completed
+2015-05-06 16:25:31,820 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/log4jproducer]] to [STARTING]
+2015-05-06 16:25:31,820 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/log4jproducer]] to [STARTED]
+2015-05-06 16:25:31,820 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [INITIALIZING]
+2015-05-06 16:25:31,821 DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,host=localhost,name=ErrorReportValve
+2015-05-06 16:25:31,821 DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.valves.ErrorReportValve[localhost] Tomcat:type=Valve,host=localhost,name=ErrorReportValve
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [INITIALIZED]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTING_PREP]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTING]
+2015-05-06 16:25:31,821 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.valves.ErrorReportValve[localhost]] to [STARTED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [INITIALIZING]
+2015-05-06 16:25:31,822 DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,host=localhost,name=StandardHostValve
+2015-05-06 16:25:31,822 DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.core.StandardHostValve[localhost] Tomcat:type=Valve,host=localhost,name=StandardHostValve
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [INITIALIZED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTING_PREP]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTING]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardHostValve[localhost]] to [STARTED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [INITIALIZING]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [INITIALIZED]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2015-05-06 16:25:31,822 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [INITIALIZING]
+2015-05-06 16:25:31,823 DEBUG modeler.Registry  - Managed= Tomcat:type=Valve,name=StandardEngineValve
+2015-05-06 16:25:31,823 DEBUG modeler.BaseModelMBean  - preRegister org.apache.catalina.core.StandardEngineValve[Tomcat] Tomcat:type=Valve,name=StandardEngineValve
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [INITIALIZED]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTING_PREP]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTING]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.core.StandardEngineValve[Tomcat]] to [STARTED]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTING]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [Pipeline[StandardEngine[Tomcat]]] to [STARTED]
+2015-05-06 16:25:31,823 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STARTING]
+2015-05-06 16:25:31,824 DEBUG util.LifecycleBase  - Setting state for [StandardEngine[Tomcat]] to [STARTED]
+2015-05-06 16:25:31,824 DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING_PREP]
+2015-05-06 16:25:31,824 DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING]
+2015-05-06 16:25:31,824 INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2015-05-06 16:25:31,826 DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=0
+2015-05-06 16:25:31,826 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@5ea6be24] to [STARTING_PREP]
+2015-05-06 16:25:31,826 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@5ea6be24] to [STARTING]
+2015-05-06 16:25:31,827 DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=1
+2015-05-06 16:25:31,827 DEBUG connector.MapperListener  - Register Wrapper [grails-errorhandler] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,827 DEBUG connector.MapperListener  - Register Wrapper [grails] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,827 DEBUG threads.LimitLatch  - Counting up[http-bio-8080-Acceptor-0] latch=2
+2015-05-06 16:25:31,827 DEBUG connector.MapperListener  - Register Wrapper [jsp] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,827 DEBUG connector.MapperListener  - Register Wrapper [default] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,827 DEBUG connector.MapperListener  - Register Wrapper [H2Console] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,828 DEBUG connector.MapperListener  - Register Wrapper [gsp] in Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,828 DEBUG connector.MapperListener  - Register Context [/log4jproducer] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,828 DEBUG connector.MapperListener  - Register host [localhost] at domain [null] for connector [Connector[HTTP/1.1-8080]]
+2015-05-06 16:25:31,828 DEBUG util.LifecycleBase  - Setting state for [org.apache.catalina.connector.MapperListener@5ea6be24] to [STARTED]
+2015-05-06 16:25:31,828 DEBUG util.LifecycleBase  - Setting state for [Connector[HTTP/1.1-8080]] to [STARTED]
+2015-05-06 16:25:31,828 DEBUG util.LifecycleBase  - Setting state for [StandardService[Tomcat]] to [STARTED]
+2015-05-06 16:25:31,828 DEBUG util.LifecycleBase  - Setting state for [StandardServer[-1]] to [STARTED]
+2015-05-06 16:25:31,843 DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2015-05-06 16:25:31,843 DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2015-05-06 16:25:31,843 DEBUG modeler.Registry  - Looking for descriptor 
+2015-05-06 16:25:31,843 DEBUG modeler.Registry  - Introspecting 
+2015-05-06 16:25:31,843 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute virtualHost public java.lang.String org.apache.coyote.RequestInfo.getVirtualHost() null
+2015-05-06 16:25:31,843 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute bytesSent public long org.apache.coyote.RequestInfo.getBytesSent() public void org.apache.coyote.RequestInfo.setBytesSent(long)
+2015-05-06 16:25:31,843 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute method public java.lang.String org.apache.coyote.RequestInfo.getMethod() null
+2015-05-06 16:25:31,843 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute remoteAddr public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddr() null
+2015-05-06 16:25:31,843 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestBytesSent public long org.apache.coyote.RequestInfo.getRequestBytesSent() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute rpName public javax.management.ObjectName org.apache.coyote.RequestInfo.getRpName() public void org.apache.coyote.RequestInfo.setRpName(javax.management.ObjectName)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute contentLength public int org.apache.coyote.RequestInfo.getContentLength() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute workerThreadName public java.lang.String org.apache.coyote.RequestInfo.getWorkerThreadName() public void org.apache.coyote.RequestInfo.setWorkerThreadName(java.lang.String)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute bytesReceived public long org.apache.coyote.RequestInfo.getBytesReceived() public void org.apache.coyote.RequestInfo.setBytesReceived(long)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestProcessingTime public long org.apache.coyote.RequestInfo.getRequestProcessingTime() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute remoteAddrForwarded public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddrForwarded() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute globalProcessor public org.apache.coyote.RequestGroupInfo org.apache.coyote.RequestInfo.getGlobalProcessor() public void org.apache.coyote.RequestInfo.setGlobalProcessor(org.apache.coyote.RequestGroupInfo)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute protocol public java.lang.String org.apache.coyote.RequestInfo.getProtocol() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute currentQueryString public java.lang.String org.apache.coyote.RequestInfo.getCurrentQueryString() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute maxRequestUri public java.lang.String org.apache.coyote.RequestInfo.getMaxRequestUri() public void org.apache.coyote.RequestInfo.setMaxRequestUri(java.lang.String)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestBytesReceived public long org.apache.coyote.RequestInfo.getRequestBytesReceived() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute serverPort public int org.apache.coyote.RequestInfo.getServerPort() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute stage public int org.apache.coyote.RequestInfo.getStage() public void org.apache.coyote.RequestInfo.setStage(int)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute requestCount public int org.apache.coyote.RequestInfo.getRequestCount() public void org.apache.coyote.RequestInfo.setRequestCount(int)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute maxTime public long org.apache.coyote.RequestInfo.getMaxTime() public void org.apache.coyote.RequestInfo.setMaxTime(long)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute processingTime public long org.apache.coyote.RequestInfo.getProcessingTime() public void org.apache.coyote.RequestInfo.setProcessingTime(long)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute currentUri public java.lang.String org.apache.coyote.RequestInfo.getCurrentUri() null
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute lastRequestProcessingTime public long org.apache.coyote.RequestInfo.getLastRequestProcessingTime() public void org.apache.coyote.RequestInfo.setLastRequestProcessingTime(long)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Introspected attribute errorCount public int org.apache.coyote.RequestInfo.getErrorCount() public void org.apache.coyote.RequestInfo.setErrorCount(int)
+2015-05-06 16:25:31,844 DEBUG modules.MbeansDescriptorsIntrospectionSource  - Setting name: org.apache.coyote.RequestInfo
+2015-05-06 16:25:31,844 DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@34317c33 Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest1
+2015-05-06 16:25:31,844 DEBUG http11.Http11Protocol  - Register Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2015-05-06 16:25:31,845 DEBUG modeler.Registry  - Managed= Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2015-05-06 16:25:31,845 DEBUG modeler.BaseModelMBean  - preRegister org.apache.coyote.RequestInfo@d498d9c Tomcat:type=RequestProcessor,worker="http-bio-8080",name=HttpRequest2
+2015-05-06 16:25:31,850 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\grails-app]
+2015-05-06 16:25:31,850 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/webxml-1.4.1/grails-app/*]
+2015-05-06 16:25:31,850 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1/grails-app/*] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\grails-app\conf]
+2015-05-06 16:25:31,852 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54\grails-app]
+2015-05-06 16:25:31,852 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54\grails-app] because it does not exist
+2015-05-06 16:25:31,852 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54/grails-app/*] to resources []
+2015-05-06 16:25:31,853 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\grails-app]
+2015-05-06 16:25:31,853 DEBUG http.Parameters  - Set query string encoding to UTF-8
+2015-05-06 16:25:31,853 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\grails-app] because it does not exist
+2015-05-06 16:25:31,853 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3/grails-app/*] to resources []
+2015-05-06 16:25:31,853 DEBUG connector.CoyoteAdapter  - The variable [uriBC] has value [/is-tomcat-running]
+2015-05-06 16:25:31,853 DEBUG connector.CoyoteAdapter  - The variable [semicolon] has value [-1]
+2015-05-06 16:25:31,853 DEBUG connector.CoyoteAdapter  - The variable [enc] has value [UTF-8]
+2015-05-06 16:25:31,854 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app]
+2015-05-06 16:25:31,854 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/grails-app/*]
+2015-05-06 16:25:31,855 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8/grails-app/*] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app\conf, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app\i18n, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app\resourceMappers, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\grails-app\taglib]
+2015-05-06 16:25:31,857 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app]
+2015-05-06 16:25:31,857 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/grails-app/*]
+2015-05-06 16:25:31,858 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1/grails-app/*] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app\assets, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app\conf, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app\services, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\grails-app\taglib]
+2015-05-06 16:25:31,858 DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@6614e53a:Socket[addr=/127.0.0.1,port=61832,localport=8080]], Status in: [OPEN_READ], State out: [OPEN]
+2015-05-06 16:25:31,860 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\grails-app]
+2015-05-06 16:25:31,860 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\grails-app] because it does not exist
+2015-05-06 16:25:31,860 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16/grails-app/*] to resources []
+2015-05-06 16:25:31,861 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\grails-app]
+2015-05-06 16:25:31,861 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/grails-app/*]
+2015-05-06 16:25:31,861 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0/grails-app/*] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\grails-app\conf, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\grails-app\controllers, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\grails-app\views]
+2015-05-06 16:25:31,863 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\grails-app]
+2015-05-06 16:25:31,863 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/grails-app/*]
+2015-05-06 16:25:31,864 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7/grails-app/*] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\grails-app\conf, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\grails-app\services, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\grails-app\taglib]
+2015-05-06 16:25:31,866 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\.\grails-app]
+2015-05-06 16:25:31,866 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\.\grails-app] because it does not exist
+2015-05-06 16:25:31,866 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\./grails-app/**/*.groovy] to resources []
+2015-05-06 16:25:31,868 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app]
+2015-05-06 16:25:31,868 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,868 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,869 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,869 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,869 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,870 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin\cache] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,870 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,870 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,871 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,871 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin\cache] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,871 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\conf\DefaultCacheConfig.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy]
+2015-05-06 16:25:31,874 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app]
+2015-05-06 16:25:31,874 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,874 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,874 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app\conf\DefaultWebXmlConfig.groovy]
+2015-05-06 16:25:31,876 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\.\grails-app]
+2015-05-06 16:25:31,877 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\.\grails-app] because it does not exist
+2015-05-06 16:25:31,877 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\./grails-app/**/*.groovy] to resources []
+2015-05-06 16:25:31,879 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app]
+2015-05-06 16:25:31,879 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,880 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,880 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,880 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,881 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,881 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,881 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\views] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,882 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\views\dbdoc] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,882 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\conf\DbdocUrlMappings.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy]
+2015-05-06 16:25:31,885 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app]
+2015-05-06 16:25:31,885 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,885 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\assets] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,885 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\assets\javascripts] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,886 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,886 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\services] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,887 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,887 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryConfig.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryPluginResources.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\services\JQueryService.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryResourceTagLib.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryTagLib.groovy]
+2015-05-06 16:25:31,890 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app]
+2015-05-06 16:25:31,890 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,890 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,890 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\i18n] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,891 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,891 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,891 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,892 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,892 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,893 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,893 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,893 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,893 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,894 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin\resource] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,894 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\conf\ResourcesBootStrap.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\BaseUrlResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\BundleResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\CSSPreprocessorResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\CSSRewriterResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin\resource\ResourceTagLib.groovy]
+2015-05-06 16:25:31,895 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\.\grails-app]
+2015-05-06 16:25:31,895 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\.\grails-app] because it does not exist
+2015-05-06 16:25:31,895 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\./grails-app/**/*.groovy] to resources []
+2015-05-06 16:25:31,896 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app]
+2015-05-06 16:25:31,896 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,896 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,896 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,897 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,897 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,897 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin\cache] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,898 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,898 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,898 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,899 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin\cache] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/cache-1.1.7/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,899 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\conf\DefaultCacheConfig.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\.\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy]
+2015-05-06 16:25:31,900 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app]
+2015-05-06 16:25:31,901 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,901 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/webxml-1.4.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,901 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\.\grails-app\conf\DefaultWebXmlConfig.groovy]
+2015-05-06 16:25:31,902 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\.\grails-app]
+2015-05-06 16:25:31,902 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\.\grails-app] because it does not exist
+2015-05-06 16:25:31,902 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\./grails-app/**/*.groovy] to resources []
+2015-05-06 16:25:31,903 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app]
+2015-05-06 16:25:31,903 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,904 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,904 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,905 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,905 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,905 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,906 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\views] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,906 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\views\dbdoc] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/database-migration-1.4.0/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,907 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\conf\DbdocUrlMappings.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\.\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy]
+2015-05-06 16:25:31,907 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app]
+2015-05-06 16:25:31,908 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,908 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\assets] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,908 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\assets\javascripts] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,908 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,909 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\services] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,909 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/jquery-1.11.1/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,910 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryConfig.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\conf\JQueryPluginResources.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\services\JQueryService.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryResourceTagLib.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\.\grails-app\taglib\JQueryTagLib.groovy]
+2015-05-06 16:25:31,910 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app]
+2015-05-06 16:25:31,911 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,911 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\conf] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,911 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\i18n] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,912 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,912 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,912 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,912 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,912 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,913 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,913 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,914 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,914 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,914 DEBUG support.PathMatchingResourcePatternResolver  - Searching directory [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin\resource] for files matching pattern [C:/b2boost/v3/develop/log4jproducer/target/work/plugins/resources-1.2.8/./grails-app/**/*.groovy]
+2015-05-06 16:25:31,915 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\./grails-app/**/*.groovy] to resources [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\conf\ResourcesBootStrap.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\BaseUrlResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\BundleResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\CSSPreprocessorResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\resourceMappers\org\grails\plugin\resource\CSSRewriterResourceMapper.groovy, C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\.\grails-app\taglib\org\grails\plugin\resource\ResourceTagLib.groovy]
+2015-05-06 16:25:32,222 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\lib]
+2015-05-06 16:25:32,222 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1\lib] because it does not exist
+2015-05-06 16:25:32,222 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\webxml-1.4.1/lib/*.jar] to resources []
+2015-05-06 16:25:32,222 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54\lib]
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54\lib] because it does not exist
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\tomcat-7.0.54/lib/*.jar] to resources []
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\lib]
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3\lib] because it does not exist
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\scaffolding-2.0.3/lib/*.jar] to resources []
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\lib]
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8\lib] because it does not exist
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\resources-1.2.8/lib/*.jar] to resources []
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\lib]
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1\lib] because it does not exist
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\jquery-1.11.1/lib/*.jar] to resources []
+2015-05-06 16:25:32,223 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\lib]
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16\lib] because it does not exist
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\hibernate-3.6.10.16/lib/*.jar] to resources []
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\lib]
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0\lib] because it does not exist
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\database-migration-1.4.0/lib/*.jar] to resources []
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\lib]
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Skipping [C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7\lib] because it does not exist
+2015-05-06 16:25:32,224 DEBUG support.PathMatchingResourcePatternResolver  - Resolved location pattern [file:C:\b2boost\v3\develop\log4jproducer\target\work\plugins\cache-1.1.7/lib/*.jar] to resources []
+2015-05-06 16:25:41,859 DEBUG http11.Http11Processor  - Error parsing HTTP request header
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-05-06 16:25:41,867 DEBUG http11.Http11Protocol  - Socket: [org.apache.tomcat.util.net.SocketWrapper@6614e53a:Socket[addr=/127.0.0.1,port=61832,localport=8080]], Status in: [OPEN_READ], State out: [CLOSED]
+2015-05-06 16:25:41,870 DEBUG threads.LimitLatch  - Counting down[http-bio-8080-exec-3] latch=2
